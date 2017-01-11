@@ -1,0 +1,637 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3412EED71E25CB2F0008EE0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3412EED61E25CB2F0008EE0A /* AppDelegate.swift */; };
+		3412EED91E25CB2F0008EE0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3412EED81E25CB2F0008EE0A /* ViewController.swift */; };
+		3412EEDC1E25CB2F0008EE0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3412EEDA1E25CB2F0008EE0A /* Main.storyboard */; };
+		3412EEDF1E25CB2F0008EE0A /* PiProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3412EEDD1E25CB2F0008EE0A /* PiProject.xcdatamodeld */; };
+		3412EEE11E25CB2F0008EE0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3412EEE01E25CB2F0008EE0A /* Assets.xcassets */; };
+		3412EEE41E25CB2F0008EE0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3412EEE21E25CB2F0008EE0A /* LaunchScreen.storyboard */; };
+		3412EEEF1E25CB2F0008EE0A /* PiProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3412EEEE1E25CB2F0008EE0A /* PiProjectTests.swift */; };
+		3412EEFA1E25CB2F0008EE0A /* PiProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3412EEF91E25CB2F0008EE0A /* PiProjectUITests.swift */; };
+		9C5A86FD0ABB0191FF83AC39 /* Pods_PiProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15C5E5794F66A605A80E6CE0 /* Pods_PiProject.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3412EEEB1E25CB2F0008EE0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3412EECB1E25CB2F0008EE0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3412EED21E25CB2F0008EE0A;
+			remoteInfo = PiProject;
+		};
+		3412EEF61E25CB2F0008EE0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3412EECB1E25CB2F0008EE0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3412EED21E25CB2F0008EE0A;
+			remoteInfo = PiProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15C5E5794F66A605A80E6CE0 /* Pods_PiProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PiProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F1F96D4704113DAA084E056 /* Pods-PiProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PiProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PiProject/Pods-PiProject.debug.xcconfig"; sourceTree = "<group>"; };
+		3412EED31E25CB2F0008EE0A /* PiProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PiProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3412EED61E25CB2F0008EE0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3412EED81E25CB2F0008EE0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3412EEDB1E25CB2F0008EE0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3412EEDE1E25CB2F0008EE0A /* PiProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PiProject.xcdatamodel; sourceTree = "<group>"; };
+		3412EEE01E25CB2F0008EE0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3412EEE31E25CB2F0008EE0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3412EEE51E25CB2F0008EE0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3412EEEA1E25CB2F0008EE0A /* PiProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PiProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3412EEEE1E25CB2F0008EE0A /* PiProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiProjectTests.swift; sourceTree = "<group>"; };
+		3412EEF01E25CB2F0008EE0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3412EEF51E25CB2F0008EE0A /* PiProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PiProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3412EEF91E25CB2F0008EE0A /* PiProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiProjectUITests.swift; sourceTree = "<group>"; };
+		3412EEFB1E25CB2F0008EE0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB5ABBCD1F29A691E87D480D /* Pods-PiProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PiProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-PiProject/Pods-PiProject.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3412EED01E25CB2F0008EE0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C5A86FD0ABB0191FF83AC39 /* Pods_PiProject.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3412EEE71E25CB2F0008EE0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3412EEF21E25CB2F0008EE0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		053267DFE7AE56BDBB8B8420 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1F1F96D4704113DAA084E056 /* Pods-PiProject.debug.xcconfig */,
+				BB5ABBCD1F29A691E87D480D /* Pods-PiProject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3412EECA1E25CB2F0008EE0A = {
+			isa = PBXGroup;
+			children = (
+				3412EED51E25CB2F0008EE0A /* PiProject */,
+				3412EEED1E25CB2F0008EE0A /* PiProjectTests */,
+				3412EEF81E25CB2F0008EE0A /* PiProjectUITests */,
+				3412EED41E25CB2F0008EE0A /* Products */,
+				053267DFE7AE56BDBB8B8420 /* Pods */,
+				DAA08F56B6BB28E343773276 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3412EED41E25CB2F0008EE0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3412EED31E25CB2F0008EE0A /* PiProject.app */,
+				3412EEEA1E25CB2F0008EE0A /* PiProjectTests.xctest */,
+				3412EEF51E25CB2F0008EE0A /* PiProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3412EED51E25CB2F0008EE0A /* PiProject */ = {
+			isa = PBXGroup;
+			children = (
+				3412EED61E25CB2F0008EE0A /* AppDelegate.swift */,
+				3412EED81E25CB2F0008EE0A /* ViewController.swift */,
+				3412EEDA1E25CB2F0008EE0A /* Main.storyboard */,
+				3412EEE01E25CB2F0008EE0A /* Assets.xcassets */,
+				3412EEE21E25CB2F0008EE0A /* LaunchScreen.storyboard */,
+				3412EEE51E25CB2F0008EE0A /* Info.plist */,
+				3412EEDD1E25CB2F0008EE0A /* PiProject.xcdatamodeld */,
+			);
+			path = PiProject;
+			sourceTree = "<group>";
+		};
+		3412EEED1E25CB2F0008EE0A /* PiProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				3412EEEE1E25CB2F0008EE0A /* PiProjectTests.swift */,
+				3412EEF01E25CB2F0008EE0A /* Info.plist */,
+			);
+			path = PiProjectTests;
+			sourceTree = "<group>";
+		};
+		3412EEF81E25CB2F0008EE0A /* PiProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3412EEF91E25CB2F0008EE0A /* PiProjectUITests.swift */,
+				3412EEFB1E25CB2F0008EE0A /* Info.plist */,
+			);
+			path = PiProjectUITests;
+			sourceTree = "<group>";
+		};
+		DAA08F56B6BB28E343773276 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15C5E5794F66A605A80E6CE0 /* Pods_PiProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3412EED21E25CB2F0008EE0A /* PiProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3412EEFE1E25CB2F0008EE0A /* Build configuration list for PBXNativeTarget "PiProject" */;
+			buildPhases = (
+				BCB384479FE893F7E5D6FBD6 /* [CP] Check Pods Manifest.lock */,
+				3412EECF1E25CB2F0008EE0A /* Sources */,
+				3412EED01E25CB2F0008EE0A /* Frameworks */,
+				3412EED11E25CB2F0008EE0A /* Resources */,
+				581643CE609991D89D371871 /* [CP] Embed Pods Frameworks */,
+				57A2E720B0D064CFA6B2794F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PiProject;
+			productName = PiProject;
+			productReference = 3412EED31E25CB2F0008EE0A /* PiProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3412EEE91E25CB2F0008EE0A /* PiProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3412EF011E25CB2F0008EE0A /* Build configuration list for PBXNativeTarget "PiProjectTests" */;
+			buildPhases = (
+				3412EEE61E25CB2F0008EE0A /* Sources */,
+				3412EEE71E25CB2F0008EE0A /* Frameworks */,
+				3412EEE81E25CB2F0008EE0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3412EEEC1E25CB2F0008EE0A /* PBXTargetDependency */,
+			);
+			name = PiProjectTests;
+			productName = PiProjectTests;
+			productReference = 3412EEEA1E25CB2F0008EE0A /* PiProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3412EEF41E25CB2F0008EE0A /* PiProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3412EF041E25CB2F0008EE0A /* Build configuration list for PBXNativeTarget "PiProjectUITests" */;
+			buildPhases = (
+				3412EEF11E25CB2F0008EE0A /* Sources */,
+				3412EEF21E25CB2F0008EE0A /* Frameworks */,
+				3412EEF31E25CB2F0008EE0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3412EEF71E25CB2F0008EE0A /* PBXTargetDependency */,
+			);
+			name = PiProjectUITests;
+			productName = PiProjectUITests;
+			productReference = 3412EEF51E25CB2F0008EE0A /* PiProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3412EECB1E25CB2F0008EE0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = AloaLabs;
+				TargetAttributes = {
+					3412EED21E25CB2F0008EE0A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = ATX6HC2GJE;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+					3412EEE91E25CB2F0008EE0A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = ATX6HC2GJE;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3412EED21E25CB2F0008EE0A;
+					};
+					3412EEF41E25CB2F0008EE0A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = ATX6HC2GJE;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3412EED21E25CB2F0008EE0A;
+					};
+				};
+			};
+			buildConfigurationList = 3412EECE1E25CB2F0008EE0A /* Build configuration list for PBXProject "PiProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3412EECA1E25CB2F0008EE0A;
+			productRefGroup = 3412EED41E25CB2F0008EE0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3412EED21E25CB2F0008EE0A /* PiProject */,
+				3412EEE91E25CB2F0008EE0A /* PiProjectTests */,
+				3412EEF41E25CB2F0008EE0A /* PiProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3412EED11E25CB2F0008EE0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3412EEE41E25CB2F0008EE0A /* LaunchScreen.storyboard in Resources */,
+				3412EEE11E25CB2F0008EE0A /* Assets.xcassets in Resources */,
+				3412EEDC1E25CB2F0008EE0A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3412EEE81E25CB2F0008EE0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3412EEF31E25CB2F0008EE0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		57A2E720B0D064CFA6B2794F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PiProject/Pods-PiProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		581643CE609991D89D371871 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PiProject/Pods-PiProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCB384479FE893F7E5D6FBD6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3412EECF1E25CB2F0008EE0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3412EED91E25CB2F0008EE0A /* ViewController.swift in Sources */,
+				3412EED71E25CB2F0008EE0A /* AppDelegate.swift in Sources */,
+				3412EEDF1E25CB2F0008EE0A /* PiProject.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3412EEE61E25CB2F0008EE0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3412EEEF1E25CB2F0008EE0A /* PiProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3412EEF11E25CB2F0008EE0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3412EEFA1E25CB2F0008EE0A /* PiProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3412EEEC1E25CB2F0008EE0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3412EED21E25CB2F0008EE0A /* PiProject */;
+			targetProxy = 3412EEEB1E25CB2F0008EE0A /* PBXContainerItemProxy */;
+		};
+		3412EEF71E25CB2F0008EE0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3412EED21E25CB2F0008EE0A /* PiProject */;
+			targetProxy = 3412EEF61E25CB2F0008EE0A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3412EEDA1E25CB2F0008EE0A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3412EEDB1E25CB2F0008EE0A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3412EEE21E25CB2F0008EE0A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3412EEE31E25CB2F0008EE0A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3412EEFC1E25CB2F0008EE0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3412EEFD1E25CB2F0008EE0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3412EEFF1E25CB2F0008EE0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F1F96D4704113DAA084E056 /* Pods-PiProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ATX6HC2GJE;
+				INFOPLIST_FILE = PiProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AloaLabs.PiProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3412EF001E25CB2F0008EE0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB5ABBCD1F29A691E87D480D /* Pods-PiProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ATX6HC2GJE;
+				INFOPLIST_FILE = PiProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AloaLabs.PiProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3412EF021E25CB2F0008EE0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ATX6HC2GJE;
+				INFOPLIST_FILE = PiProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AloaLabs.PiProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PiProject.app/PiProject";
+			};
+			name = Debug;
+		};
+		3412EF031E25CB2F0008EE0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ATX6HC2GJE;
+				INFOPLIST_FILE = PiProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AloaLabs.PiProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PiProject.app/PiProject";
+			};
+			name = Release;
+		};
+		3412EF051E25CB2F0008EE0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = ATX6HC2GJE;
+				INFOPLIST_FILE = PiProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AloaLabs.PiProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PiProject;
+			};
+			name = Debug;
+		};
+		3412EF061E25CB2F0008EE0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = ATX6HC2GJE;
+				INFOPLIST_FILE = PiProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AloaLabs.PiProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PiProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3412EECE1E25CB2F0008EE0A /* Build configuration list for PBXProject "PiProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3412EEFC1E25CB2F0008EE0A /* Debug */,
+				3412EEFD1E25CB2F0008EE0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3412EEFE1E25CB2F0008EE0A /* Build configuration list for PBXNativeTarget "PiProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3412EEFF1E25CB2F0008EE0A /* Debug */,
+				3412EF001E25CB2F0008EE0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3412EF011E25CB2F0008EE0A /* Build configuration list for PBXNativeTarget "PiProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3412EF021E25CB2F0008EE0A /* Debug */,
+				3412EF031E25CB2F0008EE0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3412EF041E25CB2F0008EE0A /* Build configuration list for PBXNativeTarget "PiProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3412EF051E25CB2F0008EE0A /* Debug */,
+				3412EF061E25CB2F0008EE0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3412EEDD1E25CB2F0008EE0A /* PiProject.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3412EEDE1E25CB2F0008EE0A /* PiProject.xcdatamodel */,
+			);
+			currentVersion = 3412EEDE1E25CB2F0008EE0A /* PiProject.xcdatamodel */;
+			path = PiProject.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3412EECB1E25CB2F0008EE0A /* Project object */;
+}
